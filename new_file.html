@@ -15,24 +15,50 @@
 
 		<!-- BOOTSTRAP -Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="stylesheet.css">
 		
 	</head>
 
 	<body>
 		<div>
 			<header>
-				<h1>my awesome site 1.2</h1>
+				<h1>Welcome to this Site!</h1>
 			</header>
+			
 			<nav>
-				<p>
-					<a href="/">Home</a>
-				</p>
-				<p>
-					<a href="/contact">Contact</a>
-				</p>
+				<ul class="nav nav-tabs">
+  					<li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+  					<li><a data-toggle="tab" href="#tab1">Menu 1</a></li>
+  					<li><a data-toggle="tab" href="#tab2">Menu 2</a>
+  					    <ul class="dropdown-menu">
+      						<li><a data-toggle="tab" href="#tab3">Submenu 1-1</a></li>
+      						<li><a data-toggle="tab" href="#tab4">Submenu 1-2</a></li>
+      						<li><a data-toggle="tab" href="#tab5">Submenu 1-3</a></li> 
+    					</ul>			
+    				</li>
+  					<li><a data-toggle="tab" href="#tab6">Menu 3</a></li>
+				</ul>
 			</nav>
 
-			<div>
+			<div class="container">
+				
+				<div class="tab-content">
+  					<div id="home" class="tab-pane fade in active">
+    					<h3>HOME</h3>
+    					<p>Some content.</p>
+  					</div>
+  					
+  					<div id="tab1" class="tab-pane fade">
+   						 <h3>Menu 1</h3>
+    					<p>Some content in menu 1.</p>
+  					</div>
+  					
+ 					 <div id="tab2" class="tab-pane fade">
+    					<h3>Menu 2</h3>
+    					<p>Some content in menu 2.</p>
+  					</div>
+  					
+				</div>
 
 			</div>
 
