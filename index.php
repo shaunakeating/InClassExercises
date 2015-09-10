@@ -32,9 +32,9 @@
               <nav>
 				<ul class="nav nav-tabs">
   					<li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-  					<li><a data-toggle="tab" href="#tab1">Menu 1</a></li>
-  					<li><a data-toggle="tab" href="#tab2">Menu 2</a></li>
-  					<li><a data-toggle="tab" href="#tab3">Menu 3</a></li>
+  					<li><a data-toggle="tab" href="#tab1">Item 1</a></li>
+  					<li><a data-toggle="tab" href="#tab2">Item 2</a></li>
+  					<li><a data-toggle="tab" href="#tab3">Item 3</a></li>
 				</ul>
 			</nav>
 
@@ -160,7 +160,7 @@ His cu nominati repudiare, eos at labitur intellegat vituperatoribus. <br> Quot 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript">
-        $(".progress-bar").animate({width:"75%"}, 2000)
+        $(".progress-bar").animate({width:"75%"}, 2000);
     </script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
