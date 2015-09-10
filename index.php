@@ -160,7 +160,24 @@ His cu nominati repudiare, eos at labitur intellegat vituperatoribus. <br> Quot 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript">
-        $(".progress-bar").animate({width:"75%"}, 2000);
+    
+    (function() {
+        
+                var theName = function () {
+            var intendedWidth =  $(".progress-bar").width() * .75;  
+                  $(".progress-bar").animate({width: MyObject.intendedWidth}, 2000);  
+        };
+        
+        setTimeout(theName,200);
+        
+    })()
+    
+    var MyObject = {
+      hello: "world",
+      intendedWidth: $(".progress-bar").width() * .75
+    };
+        
+
     </script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
